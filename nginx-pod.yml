@@ -3,9 +3,9 @@ kind: Pod
 metadata:
   name: nginx
   labels: 
-    app: nginx
+    app: myapp
     tier: frontend
 spec:
   containers:
-    - name: nginx
-      image: nginx
+     - name: nginx
+       image: nginx
